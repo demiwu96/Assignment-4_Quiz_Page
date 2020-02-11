@@ -1,1 +1,14 @@
-# Assignment-4_Quiz_Page
+# Quiz Page
+
+## Description
+
+
+## Built with
+* HTML
+* CSS
+* javaScript
+
+## Credits
+Yu-Hsuan Wu
+
+## Take a look
