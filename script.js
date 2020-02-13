@@ -121,11 +121,9 @@ function setTime() {
             quiz.style.display = "none";
             scoreBoard.style.display = "block";
             scoreBoard.style.margin = "0 auto";
-            timeLeft = 30;
         };
     }, 1000);
-
-
+    timeLeft = 30;
 };
 
 // store the score
