@@ -1,7 +1,7 @@
 # Quiz Page
 
 ## Description
-This is a simple JavaScript quiz with timer. 
+This is a JavaScript quiz with timer. Implement local storage for storing the final score of the quiz.
 
 * Click "start" to begin the quiz.  
 * Choose the correct answer.  
