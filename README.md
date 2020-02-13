@@ -18,3 +18,4 @@ This is a JavaScript quiz with timer. Implement local storage for storing the fi
 Yu-Hsuan Wu
 
 ## Take a look
+[Click here](https://demiwu96.github.io/Assignment-4_Quiz_Page/) to look at my project
