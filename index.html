@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/29e5db4ce1.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <!-- start bttn -->
+    <div id="start">Start Quiz!</div>
+
+    <!-- Quiz Section-->
+    <main id="quiz" style="display: none;">
+        <!-- timer -->
+        <section id="timer">
+            <div id="counter">30</div>
+            <i class="fas fa-hourglass-half fa-lg icon"></i>
+        </section>
+        <!-- score board -->
+        <span id="scoreBttn">See the score board</span>
+
+        <!-- score -->
+        <section id="scoreBox">
+            <p>Score: </p><span id="score">0</span>
+        </section>
+
+        <!-- question and options-->
+        <section id="showQuestions">
+            <p id="question">Question shows here</p>
+            <section id="options">
+                <div class="box" id="A" onclick="checkAnswer('A')">A</div>
+                <div class="box" id="B" onclick="checkAnswer('B')">B</div>
+                <div class="box" id="C" onclick="checkAnswer('C')">C</div>
+                <div id="results"></div>
+            </section>
+        </section>
+
+    </main>
+
+
+    <!--Submit highest score-->
+    <section id="scoreBoard" style="display: none;">
+        <p>Submit your score</p>
+        <form id="form">
+            <input placeholder="Your name" id="username" />
+            <span id="submit" class="bttn">submit</span>
+            <span id="clear" class="bttn">clear</span>
+            <span id="again" class="bttn">try again</span>
+        </form>
+        <ul id="list">
+        </ul>
+    </section>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
