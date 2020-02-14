@@ -18,4 +18,4 @@ This is a JavaScript quiz with timer. Implementing local storage for storing the
 Yu-Hsuan Wu
 
 ## Take a look
-[Click here]() to look at my project
+[Click here](https://demiwu96.github.io/Assignment-4_Quiz_Page/) to look at my project
